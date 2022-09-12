@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/acm-projects/FIRE-Up/blob/main/goodnews.gif" width="256"/>
+<img src="https://github.com/acm-projects/NewsUp/blob/main/goodnews.gif" width="256"/>
 </p>
 
 # NewsUp
