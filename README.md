@@ -76,7 +76,8 @@ Back-end:
   * [Visual Studio Code Download](https://code.visualstudio.com/)
   * [JavaScript Basics](https://learnjavascript.online/)
   * [Node.js Download](https://nodejs.org/en/download/)
-* Frontend: [React.js](https://reactjs.org/)
+* Frontend: 
+  * [React.js](https://reactjs.org/)
   * JavaScript framework that is one of the most popular for web development
   * [Written Tutorial](https://reactjs.org/tutorial/tutorial.html)
   * [YouTube Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
