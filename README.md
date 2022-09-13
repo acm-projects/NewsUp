@@ -22,21 +22,22 @@ NewsUp is a website that compiles positive news stories by using sentiment analy
 * Gather positive quotes and display them on an automatically changing widget/component
 
 ## Timeline
-1. Set meeting dates, decide front-end/back-end teams, Git tutorial, explain MVP, finalize tech stack (Week 1)
-2. Set up IDE, download front-end and back-end tech stacks, watch tutorials (Week 2)
-Front-end:
-3. Wireframe app and continue learning React.js (Week 2)
-4. Implement wireframes using React.js (Weeks 3-5)
-5. Integrate front-end with back-end, implement stretch goals as wanted (Weeks 6-8)
-6. Prepare for presentation and polish design of front-end (Weeks 9-10)
-Back-end:
-3. Set up MongoDB and connect it to app, learn Node.js and Express (Weeks 2-3)
-4. Make basic infrastructure for back-end (Week 3)
-5. Create methods using Express and MongoDB (Weeks 4-5)
-  * GET, POST, PATCH, DELETE
-  * Connect APIs to back-end, such as a sentiment analysis API and a news finder API
-6. Integrate with front-end and implement stretch goals (Weeks 6-8)
-7. Prepare for presentation and make finishing touches (Weeks 9-10)
+* Everyone
+  1. Set meeting dates, decide front-end/back-end teams, Git tutorial, explain MVP, finalize tech stack (Week 1)
+  2. Set up IDE, download front-end and back-end tech stacks, watch tutorials (Week 2)
+* Front-end:
+  3. Wireframe app and continue learning React.js (Week 2)
+  4. Implement wireframes using React.js (Weeks 3-5)
+  5. Integrate front-end with back-end, implement stretch goals as wanted (Weeks 6-8)
+  6. Prepare for presentation and polish design of front-end (Weeks 9-10)
+* Back-end:
+  3. Set up MongoDB and connect it to app, learn Node.js and Express (Weeks 2-3)
+  4. Make basic infrastructure for back-end (Week 3)
+  5. Create methods using Express and MongoDB (Weeks 4-5)
+    * GET, POST, PATCH, DELETE
+    * Connect APIs to back-end, such as a sentiment analysis API and a news finder API
+  6. Integrate with front-end and implement stretch goals (Weeks 6-8)
+  7. Prepare for presentation and make finishing touches (Weeks 9-10)
 
 ## Tech Stack
 * Frontend:
