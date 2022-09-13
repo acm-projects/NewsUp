@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/acm-projects/NewsUp/blob/main/GermanNewspaper.jpg" width="512"/>
+<img src="https://github.com/acm-projects/NewsUp/blob/main/GermanNewspaper.jpg" width="625"/>
 </p>
 
 # NewsUp
