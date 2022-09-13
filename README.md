@@ -91,6 +91,21 @@ NewsUp is a website that compiles positive news stories by using sentiment analy
   * Building a REST API with MongoDB, Express, and Node.js [Tutorial](https://youtu.be/fgTGADljAeg) (very helpful)
 * [MERN Stack Tutorial](https://www.youtube.com/watch?v=7CqJlxBYj-M) on YouTube
 
+## Competition for Ideas
+
+* Website Competitors: 
+  * The subreddit [r/upliftingnews](https://www.reddit.com/r/UpliftingNews/)
+  * [Good News Network](https://www.goodnewsnetwork.org/)
+  * Some news corporations have pages on their websites for good news, e.g. those of [Today](https://www.today.com/news/good-news) and [CBS](https://www.cbsnews.com/theuplift/)
+
+* Application Competition:
+  * [Moodboost](https://apps.apple.com/us/app/moodboost-good-news-only/id1375114377)
+  * [Lapis News](https://apps.apple.com/us/app/lapis-news-only-the-good-news/id1527590034)
+
+## Miscellaneous Resources
+* [ACM’s Advice](https://docs.google.com/document/d/18Zi3DrKG5e6g5Bojr8iqxIu6VIGl86YBSFlsnJnlM88/edit) for you to be successful in ACM Projects
+
+
 ## GitHub Cheat Sheet
 (Thanks Emily ^-^)
 
