@@ -1,15 +1,16 @@
 import  {useState} from 'react'
 import Header from './components/Header'
 import Tasks from './components/Tasks'
-
+import Button from './components/Button'
+import Footer from './components/Footer'
  
 const App = () => {
   const [tasks, setTasks] = useState ([
     {
         id: 1,
         text: 'Turn of The Tides ',
-        day: 'September 7, 2022',  
-        Synopsis: 'Former Debt Collectors Have Wiped Away $6.7 Billion of Medical Debt for Millions of Americans' 
+          day: 'September 7, 2022',  
+          Synopsis: 'Former Debt Collectors Have Wiped Away $6.7 Billion of Medical Debt for Millions of Americans' 
     },
     {
         id: 2,
@@ -26,10 +27,21 @@ const App = () => {
 
   ])
 
+  
+ 
+
   return (
     <div className='container'>
-    <Header class="center"/>
+    <Header />
+    <Button color = 'lightgray'  text ='Top Stories'  />
+    <Button color = 'lightgray'  text ='Breakthroughs'  />
+    <Button color = 'lightgray'  text ='Sports'  />
+    <Button color = 'lightgray'  text ='Environment'  />
+    <Button color = 'lightgray'  text ='Community'  />
+    <Button color = 'lightgray'  text ='Kindness'  />
+    <Button color = 'lightgray'  text ='Animals'  />
     <Tasks tasks = {tasks}/>
+    <Footer/>
     </div>
   )
 }
