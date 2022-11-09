@@ -1,0 +1,110 @@
+.navbar {
+  font-weight: 500;
+  padding: 0;
+  display: block;
+}
+
+
+.navbar-top {
+  padding: 32px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+
+.navbar-right li {
+  list-style: none;
+  padding-right: 0;
+}
+
+.navbar-right li a {
+  color: #000;
+  font-size: 12px;
+  padding: 0 5px;
+  border-right: 1px solid #dbdbdb;
+}
+
+
+.navbar-bottom-menu {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.navbar-bottom-menu .navbar-nav .nav-item {
+  padding-right: 42px;
+  padding-left: 0;
+}
+
+.navbar-bottom-menu .navbar-nav .nav-item .nav-link {
+  padding: 22px 0;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.banner-top-thumb-wrap {
+  padding: 22px 0;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 50px;
+}
+
+.banner-top-thumb {
+  width: 82px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+.image-hover {
+  overflow: hidden;
+}
+
+.image-hover img, .image-hover .thumb-title {
+  transition: transform 0.4s;
+}
+
+.image-hover:hover img {
+  transform: scale(1.25);
+}
+
+.image-hover:hover .thumb-title {
+  background: #0a62fb;
+}
+
+footer {
+  padding: 80px 0 35px 0;
+  margin: under 578
+}
+
+footer .footer-vertical-nav {
+  margin: 0;
+  padding: 54px 0;
+  list-style: none;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
