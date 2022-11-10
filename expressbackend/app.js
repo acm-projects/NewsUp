@@ -47,8 +47,8 @@ module.exports = app;
 "use strict";
 
 const { TextAnalyticsClient, AzureKeyCredential } = require("@azure/ai-text-analytics");
-const key = 'a118e3ac40d04681a89f1393af5729af';
-const endpoint = 'https://sentimentapi.cognitiveservices.azure.com/';
+const key = 'cfad6cba042e40bfb4c482d37a203535';
+const endpoint = 'https://sentimentanalysisapi.cognitiveservices.azure.com/';
 // Authenitcation info
 const textAnalyticsClient = new TextAnalyticsClient(endpoint,  new AzureKeyCredential(key));
 
@@ -103,26 +103,55 @@ const { JSDOM } = require('jsdom');
 const { Readability } = require('@mozilla/readability');
 
 let url = 'https://newsapi.org/v2/everything?' +
-'q=Dogs&' +
+'q=Supreme Court Justice&' +
 'sortBy=publishedAt&' +
 'apiKey=c5e6012ef64749fe8ab917786db99c93';
 
+let article;
+let articleList;
+
+try {
+
 axios.get(url).then(function(r1) { 
 
-  let firstResult = r1.data.articles[0];
+  articleList = r1.data.articles;
 
-  axios.get(firstResult.url).then(function(r2) {
+  var i;
 
-    let dom = new JSDOM(r2.data, {
-      url: firstResult.url
-    });
+  for(i = 0; i < articleList.length; i++){
 
-    let article = new Readability(dom.window.document).parse();
+    let currArticle = articleList[i];
 
-    //sentiment analysis on article title
-    sentimentAnalysisWithOpinionMining(article.title, textAnalyticsClient);
-  })
+    axios.get(currArticle.url).then(function(r2) {
+
+      let dom = new JSDOM(r2.data, {
+        url: currArticle.url
+      });
+
+      article = new Readability(dom.window.document).parse();
+  
+      //sentiment analysis on article title
+      try{
+      console.log(article.title);
+      sentimentAnalysisWithOpinionMining(article.textContent, textAnalyticsClient);
+      }
+      catch(error){
+        if(error.response) {
+          console.log(error.response);
+        }
+      }
+
+    })
+  }
+
 })
+}
+catch (error) {
+  if(error.response) {
+    console.log(error.response);
+}
+}
+
 
 
 
@@ -144,6 +173,4 @@ async function getNews() {
 getNews()
 
 */
-
-
 
