@@ -21,7 +21,7 @@ class News extends React.Component {
                       </ul>
                       <div>
                         <a className="navbar-brand">
-                          <Link to="/about"><img src="assets/img/logo.svg" align="center"/></Link>
+                          <Link to="/about"><img src="assets/img/logo.png" width="290" height="300" align="center" /></Link>
                         </a>
                       </div>
                       <div className="d-flex">
@@ -35,30 +35,23 @@ class News extends React.Component {
                       </button>
                       <div className="navbar-collapse justify-content-center collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav d-lg-flex justify-content-between align-items-center">
-                          <li>
-                          </li><li className="nav-item active">
-                            <a className="nav-link active" href="blank.html" />
-                          </li>
-                          <li className="nav-item">
-                            <a className="nav-link" href="pages/blank.html" />
-                          </li>
                           <li className="nav-item active">
-                            <Link to="/news" className="nav-link">Home</Link>
+                            <Link to="/news">Home</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/news" className="nav-link">World</Link>
+                            <Link to="/world">World</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/news" className="nav-link">Health</Link>
+                            <Link to="/health" >Health</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/news" className="nav-link">Kindness</Link>
+                            <Link to="/kindness" >Kindness</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/news" className="nav-link">Technology</Link>
+                            <Link to="/technology" >Technology</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/news" className="nav-link">Animals</Link>
+                            <Link to="/animals">Animals</Link>
                           </li>
                         </ul>
                       </div>
@@ -94,7 +87,7 @@ class News extends React.Component {
                             <div className="row">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/headingImg7.jpg" className="img-fluid" />
+                                  <img src="assets/img/news/headingImg7.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Title
@@ -105,7 +98,7 @@ class News extends React.Component {
                               </div>
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/headingImg5.jpg" className="img-fluid" />
+                                  <img src="assets/img/news/headingImg5.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Title
@@ -118,7 +111,7 @@ class News extends React.Component {
                             <div className="row mt-3">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/headingImg8.jpg" className="img-fluid" />
+                                  <img src="assets/img/news/headingImg8.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Title
@@ -129,7 +122,7 @@ class News extends React.Component {
                               </div>
                               <div className="col-sm-6">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/headingImg9.jpg" className="img-fluid" />
+                                  <img src="assets/img/news/headingImg9.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Title
@@ -144,7 +137,7 @@ class News extends React.Component {
                         <div className="row" style={{paddingTop: '75px'}}> 
                           <div className="col-lg-6  mb-5 mb-sm-2">
                             <div className="position-relative image-hover">
-                              <a href="https://www.cnn.com/2022/06/16/world/ukraine-dog-rescue-poland-refugees-cnnheroes/index.html">  <img src="assets/img/headingImg10.jpg" className="img-fluid" /> </a>
+                              <a href="https://www.cnn.com/2022/06/16/world/ukraine-dog-rescue-poland-refugees-cnnheroes/index.html">  <img src="assets/img/news/headingImg10.jpg" className="img-fluid" /> </a>
                             </div>
                             <h1 className="font-weight-600 mt-3">
                               <a href="https://www.cnn.com/2022/06/16/world/ukraine-dog-rescue-poland-refugees-cnnheroes/index.html"> Rescuing The Dogs Of War </a>
@@ -157,7 +150,7 @@ class News extends React.Component {
                             <div className="row">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/headingImg11.jpg" className="img-fluid" />
+                                  <img src="assets/img/news/headingImg11.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Title
@@ -168,7 +161,7 @@ class News extends React.Component {
                               </div>
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/headingImg12.jpg" className="img-fluid" />
+                                  <img src="assets/img/news/headingImg12.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Title
@@ -192,7 +185,7 @@ class News extends React.Component {
                               </div>
                               <div className="col-sm-6">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/headingImg14.jpg" className="img-fluid" />
+                                  <img src="assets/img/news/headingImg14.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Title
