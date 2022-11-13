@@ -106,7 +106,7 @@ const { JSDOM } = require('jsdom');
 const { Readability } = require('@mozilla/readability');
 
 let url = 'https://newsapi.org/v2/everything?' +
-'q=Supreme Court Justice&' +
+'q=BasketBall, Football, Soccer, Swimming, Baseball, Tennis, VolleyBall&' +
 'sortBy=publishedAt&' +
 'apiKey=c5e6012ef64749fe8ab917786db99c93';
 
@@ -124,6 +124,21 @@ axios.get(url).then(function(r1) {
   for(i = 0; i < articleList.length; i++){
 
     let currArticle = articleList[i];
+
+    MongoClient.connect(mongoUrl, function(err, db) {
+        if (err) throw err;
+        var dbo = db.db("Stories");
+        var myobj = currArticle;
+
+        dbo.collection("Sports").insertOne(myobj, function(err, res) {
+            if (err) throw err;
+            console.log("1 document inserted");
+            db.close();
+        });
+    });
+    
+
+    /* start of sentiment comment
 
     console.log(currArticle);
 
@@ -147,6 +162,9 @@ axios.get(url).then(function(r1) {
       }
 
     })
+
+    end of sentiment comment */ 
+
   }
 
 })
@@ -156,6 +174,7 @@ catch (error) {
     console.log(error.response);
 }
 }
+
 
 
 
