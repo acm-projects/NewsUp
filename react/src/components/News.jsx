@@ -74,7 +74,7 @@ class News extends React.Component {
                         <div className="row">
                           <div className="col-lg-6  mb-5 mb-sm-2">
                             <div className="position-relative image-hover">
-                              <a href="https://www.cnn.com/2020/07/27/americas/reforestation-costa-rica-c2e-spc/index.html"> <img src="assets/img/headingImg6.jpg" className="img-fluid" /> </a>
+                              <a href="https://www.cnn.com/2020/07/27/americas/reforestation-costa-rica-c2e-spc/index.html"> <img src="assets/img/news/headingImg6.jpg" className="img-fluid" /> </a>
                             </div>
                             <h1 className="font-weight-600 mt-3">
                               <a href="https://www.cnn.com/2020/07/27/americas/reforestation-costa-rica-c2e-spc/index.html"> Costa Rica's Revitalized Forest </a>
@@ -174,7 +174,7 @@ class News extends React.Component {
                             <div className="row mt-3">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="img/headingImg13.jpg" className="img-fluid" />
+                                  <img src="assets/img/news/headingImg13.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Title
