@@ -20,7 +20,7 @@ class Technology extends React.Component {
                       <ul className="navbar-left ">
                       </ul>
                       <div> 
-                      <a className="navbar-brand" href="#"> <img src="assets/img/technology/theart.png" width={200} height={180} align="center" /> </a>
+                      <a className="navbar-brand" href="#"> <img src="assets/img/technology/theart.png" width={210} height={180} align="center" /> </a>
                       </div>
                       <div className="d-flex">
                         <ul className="navbar-right">
@@ -37,7 +37,7 @@ class Technology extends React.Component {
                             <Link to="/news">News</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/world">World</Link>
+                            <Link to="/world">Sports</Link>
                           </li>
                           <li className="nav-item">
                             <Link to="/health" >Health</Link>

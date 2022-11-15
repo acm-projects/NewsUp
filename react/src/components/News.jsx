@@ -20,7 +20,7 @@ class News extends React.Component {
                                         </ul>
                                         <div>
                                             <a className="navbar-brand">
-                                                <Link to="/about"><img src="assets/img/logo.png" width="290" height="300" align="center" /></Link>
+                                                <Link to="/about"><img src="assets/img/logo.png" width="240" height="240" align="center" /></Link>
                                             </a>
                                         </div>
                                         <div className="d-flex">

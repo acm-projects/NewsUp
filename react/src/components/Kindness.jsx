@@ -34,7 +34,7 @@ class Kindness extends React.Component {
                       <div className="navbar-collapse justify-content-center collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav d-lg-flex justify-content-between align-items-center">
                         <li className="nav-item active">
-                            <Link to="/news">Home</Link>
+                            <Link to="/news">News</Link>
                           </li>
                           <li className="nav-item">
                             <Link to="/world">Sports</Link>
@@ -88,10 +88,10 @@ class Kindness extends React.Component {
                                   <img src="assets/img/kindness/headingImg7.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  Community Outreach
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  Community makes 10,000 sandwiches for the needy in a single day...
                                 </p>
                               </div>
                               <div className="col-sm-6  mb-5 mb-sm-2">

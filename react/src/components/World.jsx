@@ -34,7 +34,7 @@ class World extends React.Component {
                       <div className="navbar-collapse justify-content-center collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav d-lg-flex justify-content-between align-items-center">
                         <li className="nav-item active">
-                            <Link to="/news">Home</Link>
+                            <Link to="/news">News</Link>
                           </li>
                           <li className="nav-item">
                             <Link to="/world">Sports</Link>
