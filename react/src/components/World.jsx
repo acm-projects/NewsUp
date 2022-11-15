@@ -20,7 +20,7 @@ class World extends React.Component {
                       <ul className="navbar-left ">
                       </ul>
                       <div>
-                        <a className="navbar-brand" href="#"> <img src="assets/img/world/worldNews.png" width={175} height={180} align="center" /> </a>
+                        <a className="navbar-brand" href="#"> <img src="assets/img/world/SportsLogo.png" width={225} height={180} align="center" /> </a>
                       </div>
                       <div className="d-flex">
                         <ul className="navbar-right">
@@ -37,7 +37,7 @@ class World extends React.Component {
                             <Link to="/news">Home</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/world">World</Link>
+                            <Link to="/world">Sports</Link>
                           </li>
                           <li className="nav-item">
                             <Link to="/health" >Health</Link>

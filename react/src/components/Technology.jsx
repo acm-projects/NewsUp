@@ -37,7 +37,7 @@ class Technology extends React.Component {
                             <Link to="/news">Home</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/world">World</Link>
+                            <Link to="/world">Sports</Link>
                           </li>
                           <li className="nav-item">
                             <Link to="/health" >Health</Link>
