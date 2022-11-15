@@ -88,10 +88,10 @@ class World extends React.Component {
                                   <img src="assets/img/world/headingImg7.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                   New Women's Marathon Record
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                   Record paces were set at the Boston Marathon this...
                                 </p>
                               </div>
                               <div className="col-sm-6  mb-5 mb-sm-2">
@@ -99,10 +99,10 @@ class World extends React.Component {
                                   <img src="assets/img/world/headingImg5.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                    Hearts for the Homeless
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                    Charities have reported increased donations for the holidays...
                                 </p>
                               </div>
                             </div>
@@ -112,10 +112,10 @@ class World extends React.Component {
                                   <img src="assets/img/world/headingImg8.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                     Sanitation Standards on the Rise
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                     Developing countries are increasing spending on sanitation...
                                 </p>
                               </div>
                               <div className="col-sm-6">
@@ -123,10 +123,10 @@ class World extends React.Component {
                                   <img src="assets/img/world/headingImg9.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                    Volunteers Against Pollution
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                    Groups of volunteers are gathering and cleaning up local...
                                 </p>
                               </div>
                             </div>

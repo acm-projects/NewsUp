@@ -20,7 +20,7 @@ class Kindness extends React.Component {
                       <ul className="navbar-left ">
                       </ul>
                       <div>
-                        <a className="navbar-brand" href="#"> <img src="assets/img/kindness/heartful.png" width={220} height={100} align="center" /> </a>
+                        <a className="navbar-brand" href="#"> <img src="assets/img/kindness/heartful.png" width={280} height={140} align="center" /> </a>
                       </div>
                       <div className="d-flex">
                         <ul className="navbar-right">
