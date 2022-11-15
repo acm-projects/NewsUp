@@ -20,7 +20,7 @@ class Animals extends React.Component {
                       <ul className="navbar-left ">
                       </ul>
                       <div>
-                        <a className="navbar-brand" href="#"> <img src="assets/img/animals/animals.png" width={275} height={250} align="center" /> </a>
+                        <a className="navbar-brand" href="#"> <img src="assets/img/animals/footprint.png" width={200} height={150} align="center" /> </a>
                       </div>
                       <div className="d-flex">
                         <ul className="navbar-right">

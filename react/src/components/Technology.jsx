@@ -19,8 +19,8 @@ class Technology extends React.Component {
                     <div className="align-items-center navbar-top" align="center">
                       <ul className="navbar-left ">
                       </ul>
-                      <div>
-                        <a className="navbar-brand" href="#"> <img src="assets/img/technology/tech.png" width={325} height={250} align="center" /> </a>
+                      <div> 
+                      <a className="navbar-brand" href="#"> <img src="assets/img/technology/theart.png" width={200} height={180} align="center" /> </a>
                       </div>
                       <div className="d-flex">
                         <ul className="navbar-right">
@@ -34,10 +34,10 @@ class Technology extends React.Component {
                       <div className="navbar-collapse justify-content-center collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav d-lg-flex justify-content-between align-items-center">
                         <li className="nav-item active">
-                            <Link to="/news">Home</Link>
+                            <Link to="/news">News</Link>
                           </li>
                           <li className="nav-item">
-                            <Link to="/world">Sports</Link>
+                            <Link to="/world">World</Link>
                           </li>
                           <li className="nav-item">
                             <Link to="/health" >Health</Link>
