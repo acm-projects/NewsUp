@@ -85,48 +85,48 @@ class Technology extends React.Component {
                             <div className="row">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/technology/headingImg7.jpg" className="img-fluid" />
+                                  <img src="assets/img/technology/headingImg11.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                VR Reaches New Heights
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                Meta is transforming virtual reality as we know it...
                                 </p>
                               </div>
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/technology/headingImg5.jpg" className="img-fluid" />
+                                  <img src="assets/img/technology/headingImg12.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  Starlite Aid To Ukraine
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                Satellite Technolgy and its role in the Ukraine conflict...
                                 </p>
                               </div>
                             </div>
                             <div className="row mt-3">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/technology/headingImg8.jpg" className="img-fluid" />
+                                  <img src="assets/img/technology/gps.webp" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  Next Generation GPS Systems
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  New navigation system with 10 cm accuracy...
                                 </p>
                               </div>
                               <div className="col-sm-6">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/technology/headingImg9.jpg" className="img-fluid" />
+                                  <img src="assets/img/technology/disaster.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  AI Powered Disaster Tracking
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  The most successful disaster mitigation powered by technology...
                                 </p>
                               </div>
                             </div>

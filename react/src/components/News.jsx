@@ -89,10 +89,10 @@ class News extends React.Component {
                                                                 <img src="assets/img/news/headingImg7.jpg" className="img-fluid" />
                                                             </div>
                                                             <h5 className="font-weight-600 mt-3">
-                                                                Title
+                                                                New Women's Marathon Record
                                                             </h5>
                                                             <p className="fs-15 font-weight-normal">
-                                                                Synopsis
+                                                                Record paces were set at the Boston Marathon this...
                                                             </p>
                                                         </div>
                                                         <div className="col-sm-6  mb-5 mb-sm-2">
@@ -100,10 +100,10 @@ class News extends React.Component {
                                                                 <img src="assets/img/news/headingImg5.jpg" className="img-fluid" />
                                                             </div>
                                                             <h5 className="font-weight-600 mt-3">
-                                                                Title
+                                                                Hearts for the Homeless
                                                             </h5>
                                                             <p className="fs-15 font-weight-normal">
-                                                                Synopsis
+                                                                Charities have reported increased donations for the holidays...
                                                             </p>
                                                         </div>
                                                     </div>
@@ -113,10 +113,10 @@ class News extends React.Component {
                                                                 <img src="assets/img/news/headingImg8.jpg" className="img-fluid" />
                                                             </div>
                                                             <h5 className="font-weight-600 mt-3">
-                                                                Title
+                                                                Sanitation Standards on the Rise
                                                             </h5>
                                                             <p className="fs-15 font-weight-normal">
-                                                                Synopsis
+                                                                Developing countries are increasing spending on sanitation...
                                                             </p>
                                                         </div>
                                                         <div className="col-sm-6">
@@ -124,10 +124,10 @@ class News extends React.Component {
                                                                 <img src="assets/img/news/headingImg9.jpg" className="img-fluid" />
                                                             </div>
                                                             <h5 className="font-weight-600 mt-3">
-                                                                Title
+                                                                Volunteers Against Pollution
                                                             </h5>
                                                             <p className="fs-15 font-weight-normal">
-                                                                Synopsis
+                                                                Groups of volunteers are gathering and cleaning up local...
                                                             </p>
                                                         </div>
                                                     </div>
@@ -152,10 +152,10 @@ class News extends React.Component {
                                                                 <img src="assets/img/news/headingImg11.jpg" className="img-fluid" />
                                                             </div>
                                                             <h5 className="font-weight-600 mt-3">
-                                                                Title
+                                                                VR Reaches New Heights
                                                             </h5>
                                                             <p className="fs-15 font-weight-normal">
-                                                                Synopsis
+                                                                Meta is transforming virtual reality as we know it...
                                                             </p>
                                                         </div>
                                                         <div className="col-sm-6  mb-5 mb-sm-2">
@@ -163,10 +163,10 @@ class News extends React.Component {
                                                                 <img src="assets/img/news/headingImg12.jpg" className="img-fluid" />
                                                             </div>
                                                             <h5 className="font-weight-600 mt-3">
-                                                                Title
+                                                             Starlink Aid To Ukraine
                                                             </h5>
-                                                            <p className="fs-15 font-weight-normal">
-                                                                Synopsis
+                                                             <p className="fs-15 font-weight-normal">
+                                                              Satellite Technolgy and its role in the Ukraine conflict...
                                                             </p>
                                                         </div>
                                                     </div>
@@ -176,10 +176,10 @@ class News extends React.Component {
                                                                 <img src="assets/img/news/headingImg13.jpg" className="img-fluid" />
                                                             </div>
                                                             <h5 className="font-weight-600 mt-3">
-                                                                Title
+                                                                Donkey Saves Snowboarders
                                                             </h5>
                                                             <p className="fs-15 font-weight-normal">
-                                                                Synopsis
+                                                                A spotted Donkey wandered upon two stranded snowboarders in an...
                                                             </p>
                                                         </div>
                                                         <div className="col-sm-6">
@@ -187,10 +187,10 @@ class News extends React.Component {
                                                                 <img src="assets/img/news/headingImg14.jpg" className="img-fluid" />
                                                             </div>
                                                             <h5 className="font-weight-600 mt-3">
-                                                                Title
+                                                                Paralympic Athlete Provides Inspiration
                                                             </h5>
                                                             <p className="fs-15 font-weight-normal">
-                                                                Synopsis
+                                                                Ricky Jackson provides a great deal of inspiration for children and...
                                                             </p>
                                                         </div>
                                                     </div>

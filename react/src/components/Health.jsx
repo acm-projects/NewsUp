@@ -88,10 +88,10 @@ class Health extends React.Component {
                                   <img src="assets/img/health/headingImg7.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  Insulin Prices Dropping Globally
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  Due to protests from multiple parties, there has been mounting call...
                                 </p>
                               </div>
                               <div className="col-sm-6  mb-5 mb-sm-2">
@@ -99,10 +99,10 @@ class Health extends React.Component {
                                   <img src="assets/img/health/headingImg5.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  Yes, We Are Living Longer
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  While not all improvements are seen, the global standard of living is increasing...
                                 </p>
                               </div>
                             </div>
@@ -112,10 +112,10 @@ class Health extends React.Component {
                                   <img src="assets/img/health/headingImg8.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  Covid Hospitalization Declines Drastically
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  The hospitalization curve due to Covid-19 has flattened dramatically...
                                 </p>
                               </div>
                               <div className="col-sm-6">
@@ -123,10 +123,10 @@ class Health extends React.Component {
                                   <img src="assets/img/health/headingImg9.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  Six Year Old Jillian Beats Cancer
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  Jillian Morris, who was diagnosed with a stage 4 carcinoma, has done the unthinkable...
                                 </p>
                               </div>
                             </div>

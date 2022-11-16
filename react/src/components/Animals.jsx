@@ -85,48 +85,48 @@ class Animals extends React.Component {
                             <div className="row">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/animals/headingImg7.jpg" className="img-fluid" />
+                                  <img src="assets/img/animals/puppy.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                Rescuing The Dogs Of War
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                After 40 days in a bomb shelter, two Ukrainian refugees and 17 dogs are ready to start a new life in Poland...
                                 </p>
                               </div>
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/animals/headingImg5.jpg" className="img-fluid" />
+                                  <img src="assets/img/animals/donkey.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                Donkey Saves Snowboarders
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                A spotted Donkey wandered upon two stranded snowboarders in an...
                                 </p>
                               </div>
                             </div>
                             <div className="row mt-3">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/animals/headingImg8.jpg" className="img-fluid" />
+                                  <img src="assets/img/animals/parrot.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                The Return Of The Spix Macaw 
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  One of the rarest breed of parrots has been found quite unexpectedly..
                                 </p>
                               </div>
                               <div className="col-sm-6">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/animals/headingImg9.jpg" className="img-fluid" />
+                                  <img src="assets/img/animals/servicedog.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  The Best Of Lifelines
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                  The multitude of forms service dogs provide support to the disabled...
                                 </p>
                               </div>
                             </div>

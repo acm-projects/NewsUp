@@ -20,7 +20,7 @@ class Kindness extends React.Component {
                       <ul className="navbar-left ">
                       </ul>
                       <div>
-                        <a className="navbar-brand" href="#"> <img src="assets/img/kindness/heartful.png" width={220} height={100} align="center" /> </a>
+                        <a className="navbar-brand" href="#"> <img src="assets/img/kindness/heartful.png" width={280} height={140} align="center" /> </a>
                       </div>
                       <div className="d-flex">
                         <ul className="navbar-right">
@@ -85,7 +85,7 @@ class Kindness extends React.Component {
                             <div className="row">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/kindness/headingImg7.jpg" className="img-fluid" />
+                                  <img src="assets/img/kindness/fooddrive.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
                                   Community Outreach
@@ -96,26 +96,26 @@ class Kindness extends React.Component {
                               </div>
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/kindness/headingImg5.jpg" className="img-fluid" />
+                                  <img src="assets/img/kindness/blood.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                  The Man With The Golden Arm
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                A hero has donated blood that has saved 2 million babies so far...
                                 </p>
                               </div>
                             </div>
                             <div className="row mt-3">
                               <div className="col-sm-6  mb-5 mb-sm-2">
                                 <div className="position-relative image-hover">
-                                  <img src="assets/img/kindness/headingImg8.jpg" className="img-fluid" />
+                                  <img src="assets/img/kindness/angel.webp" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                Angel Investors Rescue
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                A communities miraculous revival ...
                                 </p>
                               </div>
                               <div className="col-sm-6">
@@ -123,10 +123,10 @@ class Kindness extends React.Component {
                                   <img src="assets/img/kindness/headingImg9.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                  Title
+                                 Communities Against Pollution
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
-                                  Synopsis
+                                Groups of volunteers are gathering and cleaning up local...
                                 </p>
                               </div>
                             </div>
