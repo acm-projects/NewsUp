@@ -15,7 +15,7 @@ class News extends React.Component {
                         <header id="header">
                             <div className="container">
                                 <nav className="navbar navbar-expand-lg navbar-light">
-                                    <div className="align-items-center navbar-top" align="center">
+                                <div className="align-items-center navbar-top" align="center">
                                         <ul className="navbar-left ">
                                         </ul>
                                         <div>
@@ -32,24 +32,26 @@ class News extends React.Component {
                                         <button className="navbar-toggler" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                             <span className="navbar-toggler-icon" />
                                         </button>
-                                        <div className="navbar-collapse justify-content-center collapse" id="navbarSupportedContent">
-                                            <ul className="navbar-nav d-lg-flex justify-content-between align-items-center">
-                                                <li className="nav-item active">
-                                                    <Link to="/news">News</Link>
+                                        <div className="navbar-collapse justify-content-center collapse font-weight-600 mt-3" id="navbarSupportedContent">
+                                            <ul className="navbar-nav d-lg-flex justify-content-between align-items-center font-weight-600 mt-3">
+                                                <li className="nav-item active" style={{fontSize: 28}}>
+                                                    <button className="btn shadow customBttn" style={{fontSize: 28, fontWeight: 'normal'}}>
+                                                        <Link to="/news">News</Link>
+                                                    </button>
                                                 </li>
-                                                <li className="nav-item">
+                                                <li className="nav-item" style={{fontSize: 26}}>
                                                     <Link to="/world">Sports</Link>
                                                 </li>
-                                                <li className="nav-item">
+                                                <li className="nav-item" style={{fontSize: 26}}>
                                                     <Link to="/health" >Health</Link>
                                                 </li>
-                                                <li className="nav-item">
+                                                <li className="nav-item" style={{fontSize: 26}}>
                                                     <Link to="/kindness" >Kindness</Link>
                                                 </li>
-                                                <li className="nav-item">
+                                                <li className="nav-item" style={{fontSize: 26}}>
                                                     <Link to="/technology" >Technology</Link>
                                                 </li>
-                                                <li className="nav-item">
+                                                <li className="nav-item" style={{fontSize: 26}}>
                                                     <Link to="/animals">Animals</Link>
                                                 </li>
                                             </ul>

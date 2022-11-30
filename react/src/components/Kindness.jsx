@@ -31,28 +31,30 @@ class Kindness extends React.Component {
                       <button className="navbar-toggler" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                       </button>
-                      <div className="navbar-collapse justify-content-center collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav d-lg-flex justify-content-between align-items-center">
-                        <li className="nav-item active">
-                            <Link to="/news">News</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/world">Sports</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/health" >Health</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/kindness" >Kindness</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/technology" >Technology</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/animals">Animals</Link>
-                          </li>
-                        </ul>
-                      </div>
+                      <div className="navbar-collapse justify-content-center collapse font-weight-600 mt-3" id="navbarSupportedContent">
+                                            <ul className="navbar-nav d-lg-flex justify-content-between align-items-center font-weight-600 mt-3">
+                                                <li className="nav-item active" style={{fontSize: 28}}>
+                                                    <Link to="/news">News</Link>
+                                                </li>
+                                                <li className="nav-item" style={{fontSize: 26}}>
+                                                    <Link to="/world">Sports</Link>
+                                                </li>
+                                                <li className="nav-item" style={{fontSize: 26}}>
+                                                    <Link to="/health">Health</Link>
+                                                </li>
+                                                <li className="nav-item" style={{fontSize: 26}}>
+                                                    <button className="btn shadow customBttn" style={{fontSize: 28, fontWeight: 'normal'}}>
+                                                        <Link to="/kindness">Kindness</Link>
+                                                    </button>
+                                                </li>
+                                                <li className="nav-item" style={{fontSize: 26}}>
+                                                    <Link to="/technology" >Technology</Link>
+                                                </li>
+                                                <li className="nav-item" style={{fontSize: 26}}>
+                                                    <Link to="/animals">Animals</Link>
+                                                </li>
+                                            </ul>
+                                        </div>
                     </div>
                   </nav>
                 </div>
