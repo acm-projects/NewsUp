@@ -74,13 +74,13 @@ class World extends React.Component {
                         <div className="row">
                           <div className="col-lg-6  mb-5 mb-sm-2">
                             <div className="position-relative image-hover">
-                              <a href="https://www.cnn.com/world/live-news/nobel-peace-prize-2022-updates-intl"> <img src="assets/img/world/nobel.webp" className="img-fluid" /> </a>
+                              <a href="https://www.cbsnews.com/news/world-cup-usa-iran-score-updates/%22%3E"> <img src="assets/img/world/Soccer.webp" className="img-fluid" /> </a>
                             </div>
                             <h1 className="font-weight-600 mt-3">
-                              <a href="https://www.cnn.com/world/live-news/nobel-peace-prize-2022-updates-intl"> Activists Win Nobel Peace Prize </a>
+                              <a href="https://www.cbsnews.com/news/world-cup-usa-iran-score-updates/%22%3E"> USA Latest World Cup Triumph </a>
                             </h1>
                             <p className="fs-15 font-weight-normal">
-                              World leaders are applauding the Nobel Prize winning "artisans of peace"...
+                            The United States has defeated Iran in one of the most anticipated games of the 2022 World Cup in Qatar, advancing to the knockout stage of the tournament...
                             </p>
                           </div>
                           <div className="col-lg-6  mb-5 mb-sm-2">
@@ -90,7 +90,7 @@ class World extends React.Component {
                                   <img src="assets/img/world/headingImg7.jpg" className="img-fluid" />
                                 </div>
                                 <h5 className="font-weight-600 mt-3">
-                                New Women's Marathon Record
+                                    New Women's Marathon Record
                                 </h5>
                                 <p className="fs-15 font-weight-normal">
                                    Record paces were set at the Boston Marathon this...

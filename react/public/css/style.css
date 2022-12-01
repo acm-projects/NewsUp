@@ -17,7 +17,7 @@
     background-color: #ffde59;
 }
 
-.shadw {
+.shadow {
     box-shadow: 5px 10px;
 }
 
@@ -27,5 +27,4 @@
 
 .customFont {
     font-family: Nunito;
-    font-weight: bold;
 }

@@ -74,13 +74,13 @@ class Technology extends React.Component {
                         <div className="row">
                           <div className="col-lg-6  mb-5 mb-sm-2">
                             <div className="position-relative image-hover">
-                              <a href="https://www.cnn.com/2022/11/01/business/spacex-falcon-heavy-launch-ussf-44-scn/index.html"> <img src="assets/img/technology/rocket.jpg" className="img-fluid" /> </a>
+                              <a href="https://www.cnn.com/2022/11/26/world/spacex-launch-saturday-iss-dwarf-tomatoes-scn%22%3E"> <img src="assets/img/technology/rocket.jpg" className="img-fluid" /> </a>
                             </div>
                             <h1 className="font-weight-600 mt-3">
-                              <a href="https://www.cnn.com/2022/11/01/business/spacex-falcon-heavy-launch-ussf-44-scn/index.html"> SpaceX's Latest Rocket Launch </a>
+                              <a href="https://www.cnn.com/2022/11/26/world/spacex-launch-saturday-iss-dwarf-tomatoes-scn%22%3E"> SpaceX's Latest Rocket Launch </a>
                             </h1>
                             <p className="fs-15 font-weight-normal">
-                              SpaceX's Falcon Heavy rocket, world's most powerful rocket, launches after three-year hiatus...
+                              SpaceX launches tomato seeds, other supplies to International Space Station...
                             </p>
                           </div>
                           <div className="col-lg-6  mb-5 mb-sm-2">

@@ -18,17 +18,16 @@ class About extends React.Component {
           <nav className="navbar navbar-light navbar-expand-md sticky-top navbar-shrink py-3" id="mainNav" style={{background: 'var(--bs-gray-200)'}}>
             <div className="container"><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon" /></button>
               <div className="collapse navbar-collapse" id="navcol-1" />
-              <button className="btn shadow customBttn customFont">
+              <button className="btn shadow customBttn customFont" style={{fontSize: 26}}>
                 <Link to="/news">Feed</Link>
               </button>
             </div>
           </nav>
           <section style={{background: 'var(--bs-white)'}}>
             <div className="container bg-primary-gradient py-5" style={{background: 'var(--bs-white)'}}>
-              <img src="assets/img/logo.png" button onClick={this.Confetti} className="center"/>
-              <h1 className="fw-bold card-title ttle customFont" style={{textAlign: 'center'}}>Your favorite news stories, all in one place.</h1>
+              <img src="assets/img/logo.png" button onClick={this.Confetti} className="center" style={{height:600, width:600}}/>
               <div className="py-5 p-lg-5" />
-              <a className="btn shadow center customBttn customFont" style={{width: '6vw'}} role="button">^</a>
+              <h1 className="fw-bold card-title ttle customFont" style={{textAlign: 'center', fontSize: 72}}>Your favorite news stories, all in one place.</h1>
               <div className="py-5 p-lg-5">
                 <div className="py-5 p-lg-5" />
                 <div className="row row-cols-1 row-cols-md-2 mx-auto" style={{maxWidth: '900px'}}>
@@ -67,7 +66,7 @@ class About extends React.Component {
             <div className="py-5 p-lg-5">
               <h1 className="fw-bold card-title customFont" style={{textAlign: 'center'}}>Ready to see brighter news stories?</h1>
             </div>
-            <a className="btn shadow center customBttn customFont" style={{width: '10vw'}} role="button">
+            <a className="btn shadow center customBttn customFont" style={{width: '10vw', fontSize: 26}} role="button">
               <Link to="/news">Go to Feed</Link>
             </a>
           </section>
